@@ -1,0 +1,114 @@
+<svg
+  xmlns="http://www.w3.org/2000/svg"
+  width="1000"
+  height="610"
+  viewBox="0 0 1000 610"
+>
+
+  <style>
+    .background { fill: #0c0c0c; }
+    .text {
+      font-family: Consolas, "Liberation Mono", monospace;
+      font-size: 15px;
+    }
+    .prompt { fill: #16c60c; }
+    .section { fill: #3b78ff; }
+    .label { fill: #61d6d6; }
+    .value { fill: #cccccc; }
+    .line { fill: #767676; }
+    .divider { stroke: #5d5d5d; }
+  </style>
+
+  <rect class="background" width="100%" height="100%" rx="5"/>
+
+  <line class="divider" x1="94" y1="71" x2="980" y2="71"/>
+  <line class="divider" x1="112" y1="161" x2="980" y2="161"/>
+  <line class="divider" x1="112" y1="271" x2="980" y2="271"/>
+  <line class="divider" x1="103" y1="381" x2="980" y2="381"/>
+  <line class="divider" x1="103" y1="511" x2="980" y2="511"/>
+
+  <text class="text" x="20" y="35">
+    <tspan class="prompt">010110010110111101101110@github:~$ </tspan>
+    <tspan class="value">cat profile.txt</tspan>
+  </text>
+
+  <text class="text" x="20" y="75">
+    <tspan class="section">host@me</tspan>
+    <tspan x="20" dy="24" class="line">├─ </tspan>
+    <tspan class="label">User</tspan>
+    <tspan class="line">........................................................................................................ </tspan>
+    <tspan class="value">Yon</tspan>
+    <tspan x="20" dy="24" class="line">└─ </tspan>
+    <tspan class="label">Kernel</tspan>
+    <tspan class="line">.................................................................................................... </tspan>
+    <tspan class="value">Human</tspan>
+  </text>
+
+  <text class="text" x="20" y="165">
+    <tspan class="section">groups@me</tspan>
+    <tspan x="20" dy="24" class="line">├─ </tspan>
+    <tspan class="label">Primary group</tspan>
+    <tspan class="line">..................................................................... </tspan>
+    <tspan class="value">Ingénieur réseaux et sécurité</tspan>
+    <tspan x="20" dy="24" class="line">├─ </tspan>
+    <tspan class="label">Secondary group</tspan>
+    <tspan class="line">................................................................. </tspan>
+    <tspan class="value">Développeur de jeux indépendant</tspan>
+    <tspan x="20" dy="24" class="line">└─ </tspan>
+    <tspan class="label">Interests</tspan>
+    <tspan class="line">.................................................................... </tspan>
+    <tspan class="value">Jeux vidéo / lore / automatisation</tspan>
+  </text>
+
+  <text class="text" x="20" y="275">
+    <tspan class="section">system@me</tspan>
+    <tspan x="20" dy="24" class="line">├─ </tspan>
+    <tspan class="label">OS</tspan>
+    <tspan class="line">.............................................................................................. </tspan>
+    <tspan class="value">Windows / Linux</tspan>
+    <tspan x="20" dy="24" class="line">├─ </tspan>
+    <tspan class="label">Languages</tspan>
+    <tspan class="line">................................................ </tspan>
+    <tspan class="value">GDScript / Python / Bash / C / HTML / CSS / JavaScript</tspan>
+    <tspan x="20" dy="24" class="line">└─ </tspan>
+    <tspan class="label">Automation</tspan>
+    <tspan class="line">.................................................................................. </tspan>
+    <tspan class="value">Ansible / Terraform</tspan>
+  </text>
+
+  <text class="text" x="20" y="385">
+    <tspan class="section">tools@me</tspan>
+    <tspan x="20" dy="24" class="line">├─ </tspan>
+    <tspan class="label">IDE</tspan>
+    <tspan class="line">...................................................................................................... </tspan>
+    <tspan class="value">VSCode</tspan>
+    <tspan x="20" dy="24" class="line">├─ </tspan>
+    <tspan class="label">Version control</tspan>
+    <tspan class="line">............................................................................................. </tspan>
+    <tspan class="value">Git</tspan>
+    <tspan x="20" dy="24" class="line">├─ </tspan>
+    <tspan class="label">Platforms</tspan>
+    <tspan class="line">....................................................................................... </tspan>
+    <tspan class="value">GitHub / GitLab</tspan>
+    <tspan x="20" dy="24" class="line">└─ </tspan>
+    <tspan class="label">Game engine</tspan>
+    <tspan class="line">........................................................................................ </tspan>
+    <tspan class="value">Godot Engine</tspan>
+  </text>
+
+  <text class="text" x="20" y="515">
+    <tspan class="section">about@me</tspan>
+    <tspan x="20" dy="24" class="line">├─ </tspan>
+    <tspan class="label">Current task</tspan>
+    <tspan class="line">.............................................. </tspan>
+    <tspan class="value">Metroidvania dans une uchronie biblique apocalyptique</tspan>
+    <tspan x="20" dy="24" class="line">├─ </tspan>
+    <tspan class="label">Known issue</tspan>
+    <tspan class="line">................................................................ </tspan>
+    <tspan class="value">Faire un jeu en solo c'est compliqué</tspan>
+    <tspan x="20" dy="24" class="line">└─ </tspan>
+    <tspan class="label">Nota bene</tspan>
+    <tspan class="line">.................................................................................. </tspan>
+    <tspan class="value">On dit "Chocolatine"</tspan>
+  </text>
+</svg>
