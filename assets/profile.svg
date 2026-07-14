@@ -1,8 +1,8 @@
 <svg
   xmlns="http://www.w3.org/2000/svg"
   width="1000"
-  height="610"
-  viewBox="0 0 1000 610"
+  height="660"
+  viewBox="0 0 1000 660"
 >
 
   <style>
@@ -22,10 +22,10 @@
   <rect class="background" width="100%" height="100%" rx="5"/>
 
   <line class="divider" x1="94" y1="71" x2="980" y2="71"/>
-  <line class="divider" x1="112" y1="161" x2="980" y2="161"/>
-  <line class="divider" x1="112" y1="271" x2="980" y2="271"/>
-  <line class="divider" x1="103" y1="381" x2="980" y2="381"/>
-  <line class="divider" x1="103" y1="511" x2="980" y2="511"/>
+  <line class="divider" x1="112" y1="209" x2="980" y2="209"/>
+  <line class="divider" x1="112" y1="319" x2="980" y2="319"/>
+  <line class="divider" x1="103" y1="429" x2="980" y2="429"/>
+  <line class="divider" x1="103" y1="559" x2="980" y2="559"/>
 
   <text class="text" x="20" y="35">
     <tspan class="prompt">010110010110111101101110@github:~$ </tspan>
@@ -38,13 +38,21 @@
     <tspan class="label">User</tspan>
     <tspan class="line">........................................................................................................ </tspan>
     <tspan class="value">Yon</tspan>
+    <tspan x="20" dy="24" class="line">├─ </tspan>
+    <tspan class="label">Hostname</tspan>
+    <tspan class="line">............................................................................... </tspan>
+    <tspan class="value">010110010110111101101110</tspan>
+    <tspan x="20" dy="24" class="line">├─ </tspan>
+    <tspan class="label">Timezone</tspan>
+    <tspan class="line">........................................................................................... </tspan>
+    <tspan class="value">Europe/Paris</tspan>
     <tspan x="20" dy="24" class="line">└─ </tspan>
     <tspan class="label">Kernel</tspan>
     <tspan class="line">.................................................................................................... </tspan>
     <tspan class="value">Human</tspan>
   </text>
 
-  <text class="text" x="20" y="165">
+  <text class="text" x="20" y="213">
     <tspan class="section">groups@me</tspan>
     <tspan x="20" dy="24" class="line">├─ </tspan>
     <tspan class="label">Primary group</tspan>
@@ -60,7 +68,7 @@
     <tspan class="value">Jeux vidéo / lore / automatisation</tspan>
   </text>
 
-  <text class="text" x="20" y="275">
+  <text class="text" x="20" y="323">
     <tspan class="section">system@me</tspan>
     <tspan x="20" dy="24" class="line">├─ </tspan>
     <tspan class="label">OS</tspan>
@@ -76,7 +84,7 @@
     <tspan class="value">Ansible / Terraform</tspan>
   </text>
 
-  <text class="text" x="20" y="385">
+  <text class="text" x="20" y="433">
     <tspan class="section">tools@me</tspan>
     <tspan x="20" dy="24" class="line">├─ </tspan>
     <tspan class="label">IDE</tspan>
@@ -96,12 +104,12 @@
     <tspan class="value">Godot Engine</tspan>
   </text>
 
-  <text class="text" x="20" y="515">
+  <text class="text" x="20" y="563">
     <tspan class="section">about@me</tspan>
     <tspan x="20" dy="24" class="line">├─ </tspan>
     <tspan class="label">Current task</tspan>
-    <tspan class="line">.............................................. </tspan>
-    <tspan class="value">Metroidvania dans une uchronie biblique apocalyptique</tspan>
+    <tspan class="line">........................... </tspan>
+    <tspan class="value">Développement d'un metroidvania dans une uchronie biblique apocalyptique</tspan>
     <tspan x="20" dy="24" class="line">├─ </tspan>
     <tspan class="label">Known issue</tspan>
     <tspan class="line">................................................................ </tspan>
